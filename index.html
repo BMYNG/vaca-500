@@ -10,7 +10,7 @@ html,body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Pretend
 #app{max-width:520px;margin:0 auto;padding:18px 16px 24px}
 h1{font-size:24px;margin:0}h2{font-size:21px;margin:8px 0}.s{color:var(--sub);margin:0}
 button{font:inherit;color:inherit;cursor:pointer}
-.hd{display:flex;align-items:center;gap:12px;margin:4px 0 16px}.lg{width:46px;height:46px;border-radius:13px;background:var(--ac);display:grid;place-items:center;font-size:23px}
+.hd{display:flex;align-items:center;gap:12px;margin:4px 0 16px}.hd .lg{width:46px;height:46px;border-radius:13px;background:var(--ac);display:grid;place-items:center;font-size:23px}
 .card,.hero{background:var(--card);border:1px solid var(--ln);border-radius:18px;padding:16px;margin:0 0 14px}
 .g{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
 .d{background:var(--card);border:1px solid var(--ln);border-radius:14px;padding:10px 0;font-weight:700;display:flex;flex-direction:column;align-items:center}
@@ -55,7 +55,7 @@ input{font:inherit;width:100%;box-sizing:border-box;padding:14px;border:1.5px so
 .cd .ic{display:block;height:3.3em;width:auto;background:none;border-radius:0;margin:auto 0 .1em;flex:none}
 .cd .ft{font-size:.66em;color:#8fa0c4;line-height:1.5;margin-top:auto;flex:none}.cd .ic+.ft{margin-top:.2em}.cd .bd+.ft,.cd .gm+.ft{margin-top:0}
 .cd.lg:after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.22) 48%,transparent 60%);transform:translateX(-100%);animation:sh 3.4s ease-in-out infinite;pointer-events:none}@keyframes sh{to{transform:translateX(100%)}}
-.cw{display:flex;justify-content:center;margin:10px 0}.cw .cd{font-size:min(19px,calc((100vw - 32px)/16))}
+.cw{display:flex;justify-content:center;margin:10px 0}.cw .cd{font-size:min(19px,calc((100vw - 32px)/16));width:16em;height:auto;aspect-ratio:16/23;display:flex}
 .al{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;align-items:start;width:100%;min-width:0}
 .al>.ab,.al>.cd{display:block;width:100%;min-width:0;max-width:100%;box-sizing:border-box}
 .al>.ab{all:unset;display:block;width:100%;min-width:0;max-width:100%;box-sizing:border-box;cursor:pointer;font-size:inherit}
